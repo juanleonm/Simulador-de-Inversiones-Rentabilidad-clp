@@ -1,0 +1,39 @@
+.slider-thumb::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #4f46e5;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.slider-thumb::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #4f46e5;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.chart-container {
+    transition: all 0.3s ease;
+}
+
+.summary-card {
+    transition: transform 0.2s ease;
+}
+
+.summary-card:hover {
+    transform: translateY(-5px);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+
